@@ -93,17 +93,19 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #E5E7EB;
     margin-left: 250px;
     margin-right: 250px;
-    margin-bottom: 80px;
-    padding: 100px 0px;
-    width: 100%;
-
+    width: 100%;   
 }
 
 .quote{
+    display:flex;
+    flex-direction: column;
     max-width: 800px;
+    min-height: 400px;
+    justify-content: center;
 }
 
 .thor {
@@ -111,6 +113,38 @@ button {
     justify-content: end;
     font-weight: bold;
     font-size: 22px;
+}
+
+.fourth {
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 100px;
+    justify-content: center;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+    width: 1300px;
+    border-radius: 10px;
+    padding: 40px
+}
+
+.call {
+    display: flex;
+    gap: -30px;
+    margin: -20px;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.border {
+    margin-right: 100px;
+    border: 2px solid white;
 }
 
 /* Fonts and images */
@@ -133,6 +167,7 @@ em {
 
 h3 {
     font-size: 24px;
+    margin-bottom: -10px;
 }
 
 h2 {
