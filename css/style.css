@@ -8,6 +8,7 @@
     gap: 25px;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
 }
 
 .first {
@@ -16,6 +17,7 @@
     color: #F9FAF8;
     flex-direction: column;
     padding-bottom: 110px;
+    width: 100%;
 }
 
 .header {
@@ -85,8 +87,33 @@ button {
     text-wrap: wrap;
     gap: 10px;
     text-align: center;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 80px;
+    padding: 100px 0px;
+    width: 100%;
 
 }
+
+.quote{
+    max-width: 800px;
+}
+
+.thor {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* Fonts and images */
 
 .large {
     height: 250px;
@@ -96,6 +123,12 @@ button {
 .small {
     height: 100px;
     width: 125px;
+}
+
+em {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 200;
 }
 
 h3 {
