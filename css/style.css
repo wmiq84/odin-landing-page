@@ -1,0 +1,22 @@
+.first {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.links {
+    display: flex;
+    font-size: 20px;
+    gap: 25px;
+}
+
+h3 {
+    font-size: 24px;
+    /* color: #F9FAF8 */
+}
